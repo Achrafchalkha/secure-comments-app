@@ -15,5 +15,15 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "eslintConfig": {
+    "plugins": ["jest"],
+    "env": {
+      "jest/globals": true
+    },
+   "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }
